@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Types Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="instruction">
+        <p>Drag the following animals into their right category.</p>
+    </div>
+    <div class="container">
+        <div class="title">
+            <p>Basic Types of Animals</p>
+        </div>
+        <div class="ans_Columns">
+            <!--mammal-->
+            <div class="mammal_Col">
+                <div class="label">
+                    <p>Mammal</p>
+                </div>
+                <div class="answers_Space">
+                    <div class="drop_Box" data-draggable-id="mammal">
+
+                    </div>
+                </div>
+            </div>
+            <!--amphibian-->
+            <div class="amphibian_Col">
+                <div class="label">
+                    <p>Amphibian</p>
+                </div>
+                <div class="answers_Space">
+                    <div class="drop_Box" data-draggable-id="amphibian">
+
+                    </div>
+                </div>
+            </div>
+            <!--bird-->
+            <div class="bird_Col">
+                <div class="label">
+                    <p>Bird</p>
+                </div>
+                <div class="answers_Space">
+                    <div class="drop_Box" data-draggable-id="bird">
+
+                    </div>
+                </div>
+            </div>
+            <!--fish-->
+            <div class="fish_Col">
+                <div class="label">
+                    <p>Fish</p>
+                </div>
+                <div class="answers_Space">
+                    <div class="drop_Box" data-draggable-id="fish">
+
+                    </div>
+                </div>
+            </div>
+            <!--reptile-->
+            <div class="reptile_Col">
+                <div class="label">
+                    <p>Reptile</p>
+                </div>
+                <div class="answers_Space">
+                    <div class="drop_Box" data-draggable-id="reptile">
+
+                    </div>
+                </div>
+            </div>
+            <!--invertebrate-->
+            <div class="invertebrate_Col">
+                <div class="label">
+                    <p>Invertebrate</p>
+                </div>
+                <div class="answers_Space">
+                    <div class="drop_Box" data-draggable-id="invertebrate">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ans_Pics">
+            <div class="pic_Invertebrates">
+                <div draggable="true" class="draggable" id="invertebrate">
+                    <img src="centipede.PNG" draggable="false">
+                </div>
+            </div>
+            <div class="pic_Fishes">
+                <div draggable="true" class="draggable" id="fish">
+                    <img src="clown_Fish.PNG" draggable="false">
+                </div>
+            </div>
+            <div class="pic_Reptiles">
+                <div draggable="true" class="draggable" id="reptile">
+                    <img src="crocodile.PNG" draggable="false">
+                </div>
+            </div>
+            <div class="pic_Birds">
+                <div draggable="true" class="draggable" id="bird">
+                    <img src="eagle.PNG" draggable="false">
+                </div>
+            </div>
+            <div class="pic_Mammals">
+                <div draggable="true" class="draggable" id="mammal">
+                    <img src="elephant.PNG" draggable="false">
+                </div>
+            </div>
+            <div class="pic_Amphibians">
+                <div draggable="true" class="draggable" id="amphibian">
+                    <img src="frog.PNG" draggable="false">
+                </div>
+            </div>
+        </div>
+        <div class="remarks_Space">
+            <div class="score">
+                <div class="border">
+                    Your Score: <p id="total_Score"></p>
+                </div>
+            </div>
+            <div class="restart">
+                <button id="restart_Btn" onclick="restartGame()">Restart Game</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

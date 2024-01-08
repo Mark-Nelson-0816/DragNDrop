@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #fdf7e4;
+    margin: 80px;
+}
+.instruction{
+    align-self: center;
+    margin: 20px;
+    font-size: 20px;
+}
+.container{
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    max-height: 800px;
+    width: 1300px;
+    border: 1px solid #6c5f5b;
+    padding: 20px;
+    background-color: #bbab8c;
+    padding-bottom: 10px;
+}
+.title{
+    border: 1px solid #6c5f5b;
+    height: 10%;
+    max-height: 10%;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: bold;
+    background-color: #ded0b6;
+}
+.ans_Columns{
+    border: 1px solid #6c5f5b;
+    height: 40%;
+    max-height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #ded0b6
+}
+.ans_Pics{
+    border: 1px solid #6c5f5b;
+    height: 30%;
+    max-height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-color: #ded0b6
+}
+.remarks_Space{
+    border: 1px solid #6c5f5b;
+    height: 18%;
+    max-height: 18%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #ded0b6
+}
+.mammal_Col, .amphibian_Col, .bird_Col, .fish_Col, .reptile_Col, .invertebrate_Col{
+    height: 100%;
+    max-height: 100%;
+    width: 30%;
+    border: 1px solid #6c5f5b;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.label{
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    max-height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.answers_Space{
+    text-align: center;
+    width: 100%;
+    height: 80%;
+    max-height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.label p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.drop_Box{
+    border: 1px dashed #6c5f5b;
+    background-color: #fdf7e4;
+    height: 120px;
+    width: 120px;
+    margin: 10px;
+    border-radius: 10%;
+}
+.pic_Mammals, .pic_Amphibians, .pic_Birds, .pic_Fishes, .pic_Reptiles, .pic_Invertebrates{
+    height: 120px;
+    width: 120px;
+    margin: 10px 40px;
+}
+.draggable{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+    cursor: grab;
+}
+.draggable img{
+    height: 100%;
+    width: 100%;
+    border-radius: 7%;
+}
+.restart{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.score{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #6c5f5b;
+    width: 40%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fdf7e4;
+}
+#total_Score{
+    color: red;
+}
+#restart_Btn{
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #fdf7e4;
+    border: 3px solid #6c5f5b;
+    font-family:'Times New Roman', Times, serif;
+}
+.draggable_Format{
+    border-radius: 10%;
+    border: 3px dashed black;
+}
