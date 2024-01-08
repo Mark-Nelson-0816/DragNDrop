@@ -33,8 +33,8 @@ droppableElement.forEach(element=>{
 
             draggableElement.classList.add('dropped_Element');
             
-            document.getElementById('total_Score').innerText = totalScore;
             totalScore += 1;
+            document.getElementById('total_Score').innerText = totalScore;
         }
     });
     element.addEventListener('dragover', drgOverEvent=>{
